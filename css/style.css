@@ -1,0 +1,103 @@
+/*Basic CSS Styling*/
+* {
+	box-sizing: border-box;
+}
+body {
+			font-family: 'Montserrat', sans-serif;
+		}
+h1 {
+	font-weight: bold;
+	font-size: 1.75em;
+	color: #000000;
+	text-align: center;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+p {
+	margin: 5px;
+	padding: 35px 5px 15px 5px;
+	border: 1px solid black;
+}
+
+#p1 {
+	background-color: #D6F6EA;
+}
+
+#p2 {
+	background-color: #FFEADC;
+}
+
+#p3 {
+	background-color: #FFE3E1;
+}
+.menu {
+	border: 1px solid white;
+	padding: 10px;
+}
+
+#One, #Two, #Three {
+	background-color: white;
+	color: #344740;
+	font-size: 1em;
+}
+
+.tab {
+	border: 1px solid black;
+	color: #3A3B3C;
+	font-weight: bold;
+	font-size: 1.25em;
+	height: 35px;
+	padding: 5px;
+	margin: 5px;
+	width: 150px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	float: right;
+}
+#Chicken {
+	background-color: #9BD4C0;
+}
+
+#Beef {
+	background-color: #CCAA93;
+}
+
+#Sushi {
+	background-color: #E6A7A1;
+}
+
+/*Simple Responsive Framework*/
+.row {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Desktop View*/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+    	float: left;
+    	width: 50%;
+    }
+    .col-md-12 {
+    	float: left;
+    	width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+		width: 100%;
+	}
+}
